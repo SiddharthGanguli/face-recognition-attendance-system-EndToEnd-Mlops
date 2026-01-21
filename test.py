@@ -2,19 +2,15 @@ import pickle
 import face_recognition
 import numpy as np
 
-# ---------------------------
-# Load trained encodings
-# ---------------------------
+
 with open("artifacts/face_encoding/encodings.pkl", "rb") as f:
     known_encodings = pickle.load(f)
 
-# ---------------------------
-# Load test image
-# ---------------------------
-test_image_path = "data/dataset/akash/akash01.jpeg"  # change this
+
+test_image_path = "data/dataset/jeet/jeet01.jpeg"  # change this
 image = face_recognition.load_image_file(test_image_path)
 
-# Detect face
+
 face_locations = face_recognition.face_locations(image)
 
 if len(face_locations) == 0:
