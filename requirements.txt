@@ -1,0 +1,13 @@
+pyyaml
+numpy
+pandas
+opencv-python
+mtcnn
+face-recognition
+dlib
+scikit-learn
+PyYAML
+tqdm
+streamlit
+cv2
+-e .

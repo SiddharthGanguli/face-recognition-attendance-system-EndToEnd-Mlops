@@ -1,0 +1,19 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  ROOT_DIR: artifacts/data_ingestion
+  SOURCE_DIR: data/dataset
+
+data_validation:
+  ROOT_DIR: artifacts/data_validation
+  allowed_extensions:
+    - .jpg
+    - .jpeg
+    - .png
+  min_images_per_class: 5
+
+face_encoding:
+  ROOT_DIR: artifacts/face_encoding
+  model_name: facenet
+  image_size: [160, 160]
+  encoding_file: encodings.pkl

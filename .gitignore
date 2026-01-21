@@ -1,0 +1,9 @@
+/mlops/
+.env
+
+
+artifacts/
+logs/
+data/dataset/
+
+report.json

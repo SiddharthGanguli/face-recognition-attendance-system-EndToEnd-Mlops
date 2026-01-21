@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: face-attendance
+Version: 0.1.0
+Summary: Smart Attendance System Using Face Recognition
+Author: Siddhartha Ganguli
+Author-email: siddharthaganguli0093@gmail.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Smart Attendance System using Face Recognition with Python and OpenCV
